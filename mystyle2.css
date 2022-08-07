@@ -1,0 +1,38 @@
+body{
+	background-color:<;
+	font-size:20;
+	margin:0;
+}
+
+.logo{
+	text-align:center;
+	width:200;
+	length:250;
+}
+
+/*unvisited link*/
+a:link{
+	color:940d84;
+		}
+				
+/*visited link*/
+a:visited{
+		color:7b1c78;
+		}
+				
+a:hover{
+		color:3c046c;
+		}
+		
+.front{
+	display:flex;
+	align-items:center;
+	height:500px;
+	justify-content:center;
+	margin:5%;
+	padding:0%;
+	
+}
+
+
+		

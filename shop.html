@@ -1,0 +1,849 @@
+<html>
+	<head>
+		<title>SHOP</title>
+		<link rel = "icon" type = "png" href = "finallogo.png">
+		<style>
+			.h2{
+				text-align:center;
+				font-family:"cutive mono",cursive;
+				padding-top:20px;
+				Color:#d98695;
+				}
+				
+			.best{
+		
+				background-color:#fc9483;
+				opacity:0.5;
+				align:center;
+				}
+				
+			.cover{
+			width:1000;
+			height:500;
+			
+			}
+			.container {
+				display: flex;
+				align-items: left;
+				justify-content: left
+				}
+			
+			.text {
+				font-size:30px;
+				padding-left:5px;
+				padding-top:80px;
+				font-family:"lucida handwriting",cursive;
+				color:#ffc0c0;
+				text-align:center;
+				}
+			
+				
+			/* styling navlist */
+			#navlist {
+            background-color:#fbece5;
+            position:fixed;
+            width: 100%;
+			height:8%;
+			padding-left:0%;
+			padding-right:0%;
+			font-family:"Cutive mono",cursive;
+			}
+         
+			/* styling navlist anchor element */
+			#navlist a {
+            float:left;
+            display: block;
+            color: #fc9483;
+            text-align: center;
+            padding: 15px;
+            text-decoration: none;
+            font-size: 20px;
+			}
+			
+			/*unvisited link*/
+			#navlist a:link{
+			color:#fc9483;
+			}
+			
+			/*visited link*/
+			#navlist a:visited {
+			color:#f25278;
+			}
+			
+			.navlist-right{
+            float:right;
+			}
+ 
+			/* hover effect of navlist anchor element */
+			#navlist a:hover {
+            background-color:#ffe6d9;
+            color: black;
+			}
+         
+			#logo{
+			float:left;
+			margin-left:0%;
+			margin-top:0%;
+			padding-left:0.5px;
+			padding-top:0.5px;
+			}
+				
+			.dropdown {
+				position: absolute;
+				display: inline-block;
+				}
+
+			.dropdown-content{
+				display: none;
+				position: absolute;
+				background-color: #f9f9f9;
+				min-width: 100px;
+				text-align:right;
+				}
+
+			
+			.dropdown:hover .dropdown-content {
+			display: inline-block;
+			}
+			
+			
+			/*photo gallery for the shop*/
+			div.gallery {
+			border: 1px solid #ccc;
+			}
+
+			div.gallery:hover {
+			border: 1px solid #777;
+			}
+
+			div.gallery img {
+			width: 100%;
+			height: 500px;
+			}
+
+			div.desc {
+			padding: 15px;
+			text-align: center;
+			}
+
+			* {
+			box-sizing: border-box;
+			}
+
+			.responsive {
+			padding: 0 6px;
+			float: left;
+			width: 24.99999%;
+			}
+
+			@media only screen and (max-width: 700px) {
+			.responsive {
+			width: 49.99999%;
+			margin: 6px 0;
+			}
+			}
+
+			@media only screen and (max-width: 500px) {
+			.responsive {
+			width: 100%;
+			}
+			}
+
+			.clearfix:after {
+			content: "";
+			display: table;
+			clear: both;
+			}
+			
+			img.hover{
+			opacity:0.5;
+			}
+			
+			.button{
+			float:right;
+			color:#ffc0cb;
+			cursor:pointer;
+			}
+			
+			.button:hover{
+			background-color:#fff;
+            }
+			
+			.footer{
+	display:block;
+	left:0;
+	bottom:0;
+	width:100%;
+	padding-top:20px;
+	padding-left:20px;
+	padding-bottom:20px;
+	background-color:#fbece5;
+	text-align:center;
+	}
+	
+.container {
+			display: flex;
+			align-items: left;
+			justify-content: left
+			}
+
+.social{
+	text-align:center;
+}	
+
+.contact{
+	text-align:left;
+	position: relative;
+	display:inline;
+}
+
+.queries{
+	text-align:center;
+	display:inline;
+	position:relative;
+	margin-top:5px;
+	}
+.shop{
+	text-align:center;
+	padding-top:2%;
+	
+}
+
+.shop a{
+	color:#4b4b4b;
+}
+
+		</style>
+	</head>
+<body>
+	<header>
+	<div id="navlist">
+        <img src="finallogo.png" width="150" height="150" id="logo"><a href="Assignment v1.html"><u>Home</a></u>
+		<div class="dropdown">
+        
+		<a href="aboutus.html"><u>About Us</u></a>
+		<span><a  href="shop.html"><u>Shop</a></u></span>
+		<div class="dropdown-content">
+		<a href="#apple">Apple</a>
+		<a href="#pear">Pear</a>
+		<a href="#hg">Hourglass</a>
+		<a href="#intri">Inverted Triangle</a>
+		<a href="#rec">Rectangle</a>
+		<a href="#pant">Pants</a>
+		<a href="#top">Tops</a>
+		<a href="#dress">Dresses</a>
+		<a href="#jack">Jackets & Blazers</a>
+		</div>
+		</div>
+		<div class="button">
+			<a href="#"> <button class="button" onclick="alert('Your Chosen items will be added to cart here')" type="button">Add to cart</button></a>
+		</div>
+        
+        </div>
+	</header><br><br><br><br>
+	
+	<div class="container">>
+	<img class="cover" src="use1.jpg"><br><br>
+	<div class="text">
+	<p>You define beauty yourself. Society doesn't define your beauty</p>
+	<p>A fit, healthy body-THAT IS THE BEST FASHION STATEMENT!!</P>
+	</div>
+	</div>
+	
+	<i><center><h2>Don't forget to sign in to benefit from 15% discounts on all items if you are new to our website</h2></center></i>
+	<center><h2 class="best" >OUR BEST OFFERS</h2></center>
+	
+	
+	<center><h2 id="apple" class="h2">Apple Bodytype</h2></center><br>
+	
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="apple1.jpeg.">
+      <img src="apple1.jpeg"  width="600" height="400">
+    </a>
+    <div class="desc">Add to cart</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="apple2.png">
+      <img src="apple2.png" width="600" height="400">
+    </a>
+    <div class="desc">Add to cart</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="apple3.jpeg">
+      <img src="apple3.jpeg"  width="600" height="400">
+    </a>
+    <div class="desc">Add to cart</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="apple4.jpeg">
+      <img src="apple4.jpeg" width="600" height="400">
+    </a>
+    <div class="desc">Add to cart</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="apple5.jpeg">
+      <img src="apple5.jpeg" width="600" height="400">
+    </a>
+    <div class="desc">Add to cart</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="apple.6jpeg">
+      <img src="apple6.jpeg"  width="600" height="400">
+    </a>
+    <div class="desc">Add to cart</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="apple7.png">
+      <img src="apple7.png" width="600" height="400">
+    </a>
+    <div class="desc">Add to cart</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="apple8.jpeg">
+      <img src="apple8.jpeg" width="600" height="400">
+    </a>
+    <div class="desc">Add to cart</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+
+<center><h2 id="pear" class="h2">Pear Bodytype</h2></center><br>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="pear1.jpg">
+      <img src="pear1.jpg" width="600" height="400">
+    </a>
+    <div class="desc">Add to cart</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="pear2.jpg">
+      <img src="pear2.jpg" width="600" height="400">
+    </a>
+    <div class="desc">Add to cart</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="pear3.jpg">
+      <img src="pear3.jpg" width="600" height="400">
+    </a>
+    <div class="desc">Add to cart</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="pear4.jpg">
+      <img src="pear4.jpg" width="600" height="400">
+    </a>
+    <div class="desc">Add to cart</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="pear5.jpeg">
+      <img src="pear5.jpeg" width="600" height="400">
+    </a>
+    <div class="desc">Add to cart</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="pear6.jpeg">
+      <img src="pear6.jpeg" width="600" height="400">
+    </a>
+    <div class="desc">Add to cart</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="pear7.jpeg">
+      <img src="pear7.jpeg"width="600" height="400">
+    </a>
+    <div class="desc">Add to cart</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="pear8.jpeg">
+      <img src="pear8.jpeg" width="600" height="400">
+    </a>
+    <div class="desc">Add to cart</div>
+  </div>
+</div>
+
+
+<div class="clearfix"></div>
+
+<center><h2 id="hg"  class="h2">Hourglass Bodytype</h2></center><br>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="hourglass1.png">
+      <img src="hourglass1.png" width="600" height="400">
+    </a>
+    <div class="desc">Add to cart</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="hourglass2.jpeg">
+      <img src="hourglass2.jpeg" width="600" height="400">
+    </a>
+    <div class="desc">Add to cart</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="hourglass3.jpeg">
+      <img src="hourglass3.jpeg" width="600" height="400">
+    </a>
+    <div class="desc">Add to cart</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="hourglass4.jpeg">
+      <img src="hourglass4.jpeg" width="600" height="400">
+    </a>
+    <div class="desc">Add to cart</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="hourglass5.jpeg">
+      <img src="hourglass5.jpeg" width="600" height="400">
+    </a>
+    <div class="desc">Add to cart</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="hourglass6.jpeg">
+      <img src="hourglass6.jpeg" width="600" height="400">
+    </a>
+    <div class="desc">Add to cart</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="hourglass7.jpeg">
+      <img src="hourglass7.jpeg"  width="600" height="400">
+    </a>
+    <div class="desc">Add to cart</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="hourglass8.jpeg">
+      <img src="hourglass8.jpeg"  width="600" height="400">
+    </a>
+    <div class="desc">Add to cart</div>
+  </div>
+</div>
+
+
+<div class="clearfix"></div>
+
+<center><h2 id="intri" class="h2">Inverted Triangle Bodytype</h2></center><br>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="intri1.jpeg">
+      <img src="intri1.jpeg" width="600" height="400">
+    </a>
+    <div class="desc">Add to cart</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="intri2.jpeg">
+      <img src="intri2.jpeg" width="600" height="400">
+    </a>
+    <div class="desc">Add to cart</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="intri3.jpeg">
+      <img src="intri3.jpeg" width="600" height="400">
+    </a>
+    <div class="desc">Add to cart</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="intri4.jpeg">
+      <img src="intri4.jpeg"  width="600" height="400">
+    </a>
+    <div class="desc">Add to cart</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="intri5.jpeg">
+      <img src="intri5.jpeg" width="600" height="400">
+    </a>
+    <div class="desc">Add to cart</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="intri6.jpeg">
+      <img src="intri6.jpeg" width="600" height="400">
+    </a>
+    <div class="desc">Add to cart</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="intri7.jpg">
+      <img src="intri7.jpg" width="600" height="400">
+    </a>
+    <div class="desc">Add to cart</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="intri8.jpeg">
+      <img src="intri8.jpeg" width="600" height="400">
+    </a>
+    <div class="desc">Add to cart</div>
+  </div>
+</div>
+
+
+<div class="clearfix"></div>
+
+
+
+
+<center><h2 id="rec" class="h2">Rectangle Bodytype</h2></center><br>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="rec1.jpeg">
+      <img src="rec1.jpeg" width="600" height="400">
+    </a>
+    <div class="desc">Add to cart</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="rec2.jpg">
+      <img src="rec2.jpg" width="600" height="400">
+    </a>
+    <div class="desc">Add to cart</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="rec3.jepg">
+      <img src="rec3.jpeg" width="600" height="400">
+    </a>
+    <div class="desc">Add to cart</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="rec4.jpeg">
+      <img src="rec4.jpeg" width="600" height="400">
+    </a>
+    <div class="desc">Add to cart</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="rec5.jpeg">
+      <img src="rec5.jpeg" width="600" height="400">
+    </a>
+    <div class="desc">Add to cart</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="rec6.jpeg">
+      <img src="rec6.jpeg" width="600" height="400">
+    </a>
+    <div class="desc">Add to cart</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="rec7.jpeg">
+      <img src="rec7.jpeg" width="600" height="400">
+    </a>
+    <div class="desc">Add to cart</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="rec8.jpeg">
+      <img src="rec8.jpeg" width="600" height="400">
+    </a>
+    <div class="desc">Add to cart</div>
+  </div>
+</div>
+
+
+<div class="clearfix"></div><br><br>
+
+	<center><h2 class="best" >OUR PRODUCTS</h2></center>
+	<center><h2 id="pant" class="h2">Pants</h2></center>
+	
+<div class="responsive">
+<div class="gallery">
+	<a target="_blank" href="pant1.jpeg">
+	 <img src="pant1.jpeg" width="600" height="400">
+	</a>
+	<div class="desc">$11 <br>Available in green, white and purple</div>
+ </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="pant2.jpeg">
+      <img src="pant2.jpeg" width="600" height="400">
+    </a>
+    <div class="desc">$11.99<br>Available in black, brown and white</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="pant3.jpeg">
+      <img src="pant3.jpeg" width="600" height="400">
+    </a>
+    <div class="desc">$15<br>All sizes are available</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="pant4.jpeg">
+      <img src="pant4.jpeg" width="600" height="400">
+    </a>
+    <div class="desc">$9.99<br>Available in beige, black and grey</div>
+  </div>
+</div>
+<div class="clearfix"></div>
+
+
+
+<center><h2 id="top" class="h2">Tops</h2></center>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="top1.jpeg">
+      <img src="top1.jpeg" width="600" height="400">
+    </a>
+    <div class="desc">$8.89<br>Available for all sizes</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="top2.jpeg">
+      <img src="top2.jpeg" width="600" height="400">
+    </a>
+    <div class="desc">$9<br>Available in burgandy, green and purple</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="top4.jpeg">
+      <img src="top4.jpeg" width="600" height="400">
+    </a>
+    <div class="desc">$7.89<br>All sizes are available only in black</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="top3.jpeg">
+      <img src="top3.jpeg" width="600" height="400">
+    </a>
+    <div class="desc">$10.99<br>Out of stock/will renew soon</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+
+<center><h2 id="dress" class="h2">Dresses</h2></center>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="dress1.jpeg">
+      <img src="dress1.jpeg" width="600" height="400">
+    </a>
+    <div class="desc">$15.99<br>Available in all sizes</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="dress2.jpeg">
+      <img src="dress2.jpeg" width="600" height="400">
+    </a>
+    <div class="desc">$13.89<br>Available in blue and yellow</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="dress3.jpeg">
+      <img src="dress3.jpeg" width="600" height="400">
+    </a>
+    <div class="desc">$10.99<br>Available only in black</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="dress4.jpeg">
+      <img src="dress4.jpeg" width="600" height="400">
+    </a>
+    <div class="desc">$11.99<br>Available in all sizes</div>
+  </div>
+</div>
+<div class="clearfix"></div>
+
+<center><h2 id="jack" class="h2">Jackets and Blazers</h2></center>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="j1.jpeg">
+      <img src="j1.jpeg" width="600" height="400">
+    </a>
+    <div class="desc">$20<br>Available in all sizes</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="j2.jpeg">
+      <img src="j2.jpeg" width="600" height="400">
+    </a>
+    <div class="desc">$12.99<br>Available in all sizes</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="j3.jpeg">
+      <img src="j3.jpeg" width="600" height="400">
+    </a>
+    <div class="desc">$14.99<br>Available in all sizes in brown, grey and white</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="j4.jpeg">
+      <img src="j4.jpeg" width="600" height="400">
+    </a>
+    <div class="desc">$15.99<br>Available in all sizes</div>
+  </div>
+</div>
+<div class="clearfix"></div><br><br>
+
+<div class="footer">
+	<div class="shop">
+		<a href="contactform.html">Contact us</a><br><br>
+		<a href="shop.html">Our Shop</a>
+		</div>
+		<div class="queries">
+		<h3>Customer Service</h3>
+		<p class="queries" >Pricing and payment<br>Orders and delivery<br>Returns and refunds</p>
+		</div>
+		<br><br>
+		
+		<div class="contact">
+		<img src="mobile1icon.png" width="20px" height="20px">Contact number: 56565656<br>
+		<img src="email1icon.png" width="20px" height="20px">Email: Nirvana@yourfavourite.fit me<br>
+		<img src="location.png" width="20px" height="20px">Address: 8 vienna street mont cheri
+		</div><br><br>
+		<div class="social">
+		<h2>Let's go social</h2>
+		<img src="facebook1icon.png" width="30px" height="30px">
+		<img src="insta.png" width="30px" height="30px">
+		<img src="tweeter.png" width="30px" height="30px">
+		<img src="whatsapp1 icon.png" width="30px" height="30px">
+		</div><br><br>
+		
+		
+		 <p class="copyright">&copy; 2022 | by <span>Nirvana Boutique</span></p>
+		
+	</div>	
+
+
+
+
+
+</body>	
+</html>

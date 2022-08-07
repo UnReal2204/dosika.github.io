@@ -1,0 +1,77 @@
+<html>
+	<head>
+		<title>Contact Form</title>
+		<link rel = "icon" type = "link" href = "finallogo.png">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+		body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #fc94af;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #ff6090;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+@media (max-width: 500px) {
+			header {
+			width: 100%;
+			}
+</style>
+</head>
+<body>
+<header>
+<h3>Contact Form</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="queries">Queries</label>
+	
+    <select id="queries" name="queries">
+      <option value="Pricing and payment">Pricing and Payment</option>
+      <option value="orders and deliveries">Orders and deliveries</option>
+      <option value="returns and refunds">Returns and Refunds</option>
+	  <option value="Other">Other</option>
+    </select>
+	
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</header
+</body>
+</html>
+	

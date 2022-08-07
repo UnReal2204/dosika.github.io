@@ -1,0 +1,169 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+
+
+/* styling navlist */
+        #navlist {
+            background-color:#fbece5;
+            position:relative;
+            width: 100%;
+			height:5%;
+			padding-top:0.5%;
+			margin:0px;
+			font-family:"Cutive mono",cursive;
+			}
+         
+        /* styling navlist anchor element */
+        #navlist a {
+            float:left;
+            display: block;
+            color: #fc9483;
+            text-align: center;
+            padding: 15px;
+            text-decoration: none;
+            font-size: 20px;
+			
+        }
+		
+		/*unvisited link*/
+		#navlist a:link{
+		color:#fc9483;
+		}
+		
+		/*visited link*/
+		#navlist a:visited {
+		color:#f25278;
+		}
+			
+        .navlist-right{
+            float:right;
+        }
+ 
+        /* hover effect of navlist anchor element */
+        #navlist a:hover {
+            background-color:#ffe6d9;
+            color: black;
+        }
+         
+        /* styling search bar */
+        .search input[type=text]{
+            width:500px;
+            height:30px;
+            border-radius:25px;
+            border: solid #fbece5;
+ 
+        }
+         
+        .search{
+            float:center;
+            margin:12px;
+ 
+        }
+         
+        .search button{
+            color: #f2f2f2;
+            float: center;
+            margin-right: 16px;
+            font-size: 12px;
+            border: none;
+            cursor: pointer;
+		}
+		
+.cover2{
+	float:right;
+	padding-right:0px;
+	padding-top:0px;
+	}
+
+#logo{
+	float:left;
+	margin-left:0%;
+	margin-top:0%;
+	padding-left:0.5px;
+	padding-top:-0.5px;
+}
+	
+	
+
+
+
+.button{
+	color:#ffc0cb;
+	cursor:pointer;
+	float:right;
+	
+}
+
+.button:hover{
+	background-color:#fff;
+}
+
+
+p{
+	text-align:center;
+	font-family:"Times New Roman",serif;
+	}
+
+
+	
+.column{
+	float:left;
+	width:50%;
+	padding:10px;
+	padding-left:0px;
+	display:flex;
+	margin:0px;
+}
+
+.row {
+	content:"";
+	clear:both;
+	display:flex;
+}
+
+.footer{
+	display:block;
+	left:0;
+	bottom:0;
+	width:100%;
+	padding-top:20px;
+	padding-left:20px;
+	padding-bottom:20px;
+	background-color:#fbece5;
+	text-align:center;
+	}
+	
+.container {
+			display: flex;
+			align-items: left;
+			justify-content: left
+			}
+
+.social{
+	text-align:center;
+}	
+
+.contact{
+	text-align:left;
+	position: relative;
+	display:inline;
+}
+
+.queries{
+	text-align:center;
+	display:inline;
+	position:relative;
+	margin-top:5px;
+	}
+.shop{
+	text-align:center;
+	padding-top:2%;
+	
+}
+
+.shop a{
+	color:#4b4b4b;
+}
